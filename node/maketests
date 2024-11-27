@@ -1,0 +1,6 @@
+# Define the Node.js test target
+.PHONY: tests
+
+tests:
+	@echo "Running Tests"
+	cd tests && node helloApp.js
